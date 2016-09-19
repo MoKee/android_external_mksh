@@ -6,7 +6,7 @@
 #
 # Support: https://launchpad.net/mksh
 
-: ${HOSTNAME:=$(getprop ro.cm.device)}
+: ${HOSTNAME:=$(getprop ro.mk.device)}
 : ${HOSTNAME:=$(getprop ro.product.device)}
 : ${HOSTNAME:=android}
 : ${TMPDIR:=/data/local/tmp}
